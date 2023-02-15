@@ -1,0 +1,48 @@
+
+.to-do-list-content {
+    height: 100%;
+}
+.card-item-content {
+    margin: auto;
+}
+.card-item {
+    padding: 0.5rem;
+}
+
+.card-content-incomplete {
+    border: 1px solid black;
+    background: aliceblue !important;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-content-complete {
+    border: 1px solid black;
+    background: powderblue !important;
+    margin-bottom: 1rem;
+}
+.primary-button{
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+.rating-content{
+    text-align: center;
+}
+
+.to-do-list-items {
+    display: flex;
+    height: 75vh;
+    overflow: hidden;
+    margin-top: 2rem !important;
+    justify-content: center;
+}
+
+.items-container {
+    height: 100%;
+    .item-card {
+        height: 100%;
+        .card-body{
+            overflow-y: auto;
+        }
+    }
+}

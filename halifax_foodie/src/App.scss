@@ -1,0 +1,10 @@
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#chatwrapper {
+    z-index: 1 !important;
+}

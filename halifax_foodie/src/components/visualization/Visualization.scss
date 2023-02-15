@@ -1,0 +1,23 @@
+.viz-container {
+    flex-grow: 1;
+}
+
+// refrences
+// https://stackoverflow.com/a/15317094
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    .tab-pane {
+        width: 100%;
+    }
+}
+
+.nav-tabs {
+    margin-bottom: 0 !important;
+}

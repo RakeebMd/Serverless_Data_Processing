@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  min-height: 100% !important;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 !important;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepptbackgrounds.net%2Ffood-drink%2Fbreakfast-powerpoint-template&psig=AOvVaw2J-CCIivAFeUd8f-AHQCXD&ust=1669404989911000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCM_qzIx_sCFQAAAAAdAAAAABAE");
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+}
